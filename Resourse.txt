@@ -1,0 +1,13 @@
+Youtube refrence video link
+
+https://www.youtube.com/watch?v=KH-pw1cv34E
+
+Movies App | IMDB Clone | React App | ReactJs Project | 2022
+
+Technologies used:  
+  ✨ReactJs
+  ✨React Router Dom
+  ✨React Loading Skeleton 
+  ✨React Responsive Caraousel
+  ✨Font Awesome
+
