@@ -1,0 +1,145 @@
+.header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover {
+    color: red;
+}
+
+.header__icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
+
+
+
+
+
+@media screen and (max-width: 750px) {
+
+    
+a > span{
+    font-size: 1.3rem;
+    margin: 0 20px;
+ 
+}
+
+.header {
+    margin: 0 2.5rem;
+    align-items: center;
+    justify-content: center;
+}
+  }
+
+  
+@media screen and (max-width: 690px) {
+
+
+    
+a > span{
+    font-size: 1.2rem;
+    margin: 0 10px;
+ 
+}
+
+.header {
+    margin: 0 2.0rem;
+}
+  }
+
+    
+@media screen and (max-width: 580px) {
+
+
+    
+a > span{
+    font-size: 1.1rem;
+    margin: 0 10px;
+ 
+}
+
+.header {
+    margin: 0 1.5rem;
+}
+.header__icon {
+    width: 70px;
+}
+  }
+
+      
+@media screen and (max-width: 520px) {
+
+    
+a > span{
+    font-size: 1.1rem;
+    margin: 0 10px;
+ 
+}
+
+.header {
+    margin: 0 1rem;
+}
+.header__icon {
+    width: 60px;
+}
+  }
+
+        
+@media screen and (max-width: 500px) {
+  
+
+    
+a > span{
+    font-size: 1rem;
+    margin: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+ 
+}
+
+.header {
+    margin: 0 0.8rem;
+}
+.header__icon {
+    width: 55px;
+}
+
+
+  }
+
+
+
+
+
+
+
+
+
