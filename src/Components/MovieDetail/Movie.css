@@ -186,6 +186,16 @@
     
 }
 
+@media screen and (max-width: 720px) {
+  .movie__genre {
+    padding: 0.5rem;
+    
+    margin-right: 1rem;
+    font-size: 0.8rem;
+}
+}
+
+
 @media screen and (max-width: 650px) {
     .movie__name {
         font-weight: 600;
@@ -262,4 +272,23 @@
    body{
     font-size: 85%;
    }
+
+  .movie__genre {
+    padding: 0.5rem;
+    
+    margin-right: 0.5rem;
+    font-size: 0.7rem;
+}
+}
+
+
+@media screen and (max-width: 390px) {
+  
+
+ .movie__genre {
+  padding: 0.5rem;
+  
+  margin-right: 0.4rem;
+  font-size: 0.6rem;
+}
 }
